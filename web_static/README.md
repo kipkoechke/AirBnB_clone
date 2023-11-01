@@ -1,7 +1,15 @@
+
 <div style="text-align: center;">
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+
+![ALX logo](images/alx-logo.png "ALX logo")
+
 </div>
-<h1 style="text-align: center; font-size:24px;">>AirBNB clone web static</h1>
+
+<h1 style="text-align: center; font-size:24px;">
+
+> AirBNB clone web static
+
+</h1>
 
 ## Background Context
 
