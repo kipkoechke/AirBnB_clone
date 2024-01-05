@@ -29,7 +29,8 @@ class BaseModel:
             models.storage.new(self)
 
     def save(self):
-        """Update the 'updated_at' attribute with the current datetime and save the object."""
+        """Update the 'updated_at' attribute with the current datetime
+        and save the object."""
         self.updated_at = datetime.today()
         models.storage.save()
 
@@ -48,4 +49,3 @@ class BaseModel:
         """Return a string representation of the BaseModel instance."""
         class_name = self.__class__.__name__
         return "[{}] ({}) {}".format(class_name, self.id, self.__dict__)
-
